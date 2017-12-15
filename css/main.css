@@ -40,3 +40,99 @@ li {
   line-height: 1.5;
   padding-bottom: 1em;
 }
+
+@media only screen and (min-width: 25em) {
+  li:nth-child(1) {
+    width: 50%;
+    display: inline-block;
+  }
+
+  li:nth-child(2) {
+    width: 50%;
+    float: right;
+    clear: left;
+    display: inline-block;
+  }
+
+  li:nth-child(3) {
+    width: 50%;
+    display: inline-block;
+  }
+
+  li:nth-child(4) {
+    width: 50%;
+    float: right;
+    clear: left;
+    display: inline-block;
+  }
+
+  a:hover {
+    color: #fff;
+    background-color: #6c8fe0;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    padding-top: 1em;
+  }
+
+  li:nth-child(1) {
+  float: none;
+  width: 25%;
+  display: inline;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+li:nth-child(2) {
+  float: none;
+  width: 25%;
+  display: inline;
+  text-align: center;
+  padding: 1em;
+}
+
+li:nth-child(3) {
+  float: none;
+  width: 25%;
+  display: inline;
+  text-align: center;
+  padding: 1em;
+}
+
+li:nth-child(4) {
+  float: none;
+  width: 25%;
+  display: inline;
+  text-align: center;
+  padding: 1em;
+}
+
+@media only screen and (min-width: 60em) {
+  h1 {
+    float: left;
+  }
+
+  header {
+    overflow: hidden;
+  }
+
+   nav {
+    display: inline;
+  }
+
+  ul {
+    display: inline;
+  }
+
+}
+@media only screen and (min-width: 90em) {
+
+
+}
